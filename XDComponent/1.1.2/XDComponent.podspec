@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
       ss.source_files = 'XDComponent/Classes/BaseViewController/*.{h,m}'
   end
   s.subspec 'Test' do |ss|
-      ss.source_files = 'XDComponent/Classes/Test/*.{h,m}'
+    ss.source_files = 'XDComponent/Classes/Test/*.{h,m}'
       ss.dependency 'XDComponent/BaseViewController'
   end
   s.resource_bundles = {
